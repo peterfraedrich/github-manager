@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "github-manager"
+version = "0.1.0"
+description = "manages some stuff in github"
+authors = ["peterfraedrich <peterfraedrich@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+requests = "^2.27.1"
+PyGithub = "^1.55"
+
+[tool.poetry.dev-dependencies]
+black = "^22.3.0"
+flake8 = "^4.0.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
